@@ -20,7 +20,7 @@ public class main {
             ch = s.charAt(i);
             if(ch!=' ')
                 ans = ans + ch;
-            s = s.replace(ch,' '); //Replacing all occurrence of the current character by a space
+            s = s.replace(ch,' ');
         }
  
        System.out.println("Final : " + ans);
